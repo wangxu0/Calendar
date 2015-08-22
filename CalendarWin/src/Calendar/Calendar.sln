@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calendar", "Calendar\Calendar.vcproj", "{E8CBEE3C-F82A-40CB-92D0-C09264A897D8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F794967E-B04F-43FD-A111-19CEF5807D0D} = {F794967E-B04F-43FD-A111-19CEF5807D0D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinLib", "WinLib\WinLib.vcproj", "{F794967E-B04F-43FD-A111-19CEF5807D0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8CBEE3C-F82A-40CB-92D0-C09264A897D8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8CBEE3C-F82A-40CB-92D0-C09264A897D8}.Debug|Win32.Build.0 = Debug|Win32
+		{E8CBEE3C-F82A-40CB-92D0-C09264A897D8}.Release|Win32.ActiveCfg = Release|Win32
+		{E8CBEE3C-F82A-40CB-92D0-C09264A897D8}.Release|Win32.Build.0 = Release|Win32
+		{F794967E-B04F-43FD-A111-19CEF5807D0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F794967E-B04F-43FD-A111-19CEF5807D0D}.Debug|Win32.Build.0 = Debug|Win32
+		{F794967E-B04F-43FD-A111-19CEF5807D0D}.Release|Win32.ActiveCfg = Release|Win32
+		{F794967E-B04F-43FD-A111-19CEF5807D0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
